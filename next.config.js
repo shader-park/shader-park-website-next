@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+
+const withTM = require('next-transpile-modules')(['shader-park-core']);
+
+module.exports = withTM({
   reactStrictMode: true,
-}
+});
