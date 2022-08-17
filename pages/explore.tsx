@@ -34,31 +34,12 @@ const Explore: NextPage = () => {
             </>
         )
         
+    } else {
+        return (
+            <span>List: Loading...</span>
+        )
     }
-    return (
-        <>
-        {/* {error && <strong>Error: {error}</strong>} */}
-        {loading && <span>List: Loading...</span>}
-        {!loading && snapshots && (
-        <>
 
-        {/* <div className="flex min-h-screen flex-col items-center justify-center py-2"> */}
-
-            {/* <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center"> */}
-            <main className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">New Sculptures</h2>
-                { sculptures.map((sculpture) => (
-                    <SculptureCard sculpture={sculpture}/>
-                ))
-                }
-                
-            </main>
-            {/* </main> */}
-        {/* </div> */}
-        </>
-        )}
-        </>
-    )
 }
 
 export default Explore

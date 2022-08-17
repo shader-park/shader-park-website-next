@@ -35,7 +35,7 @@ const Sculpture = (props: any) => {
     }
         
 
-    }
+    
 
     
     
