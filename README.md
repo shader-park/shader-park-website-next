@@ -7,14 +7,20 @@ The existing website is live [here](https://www.shaderpark.com/) and the origion
 
 The origonal website started as a 3D enviornment and shader-park-core was origonally in the website. As the website and library has changed over time there were growing pains and it makes sense to re-build out the core funcitonality.
 
-Intented Functionality:
+### Intented Functionality:
 Serverside Rendering / SEO for sculptures so individual sculptures, or profiles can be shared with a unique image and description
+
 Comments. We need the ability to get feedback
+
 Detailed Profile
   - Links to your bio, or other websites
   - Show favorites
 Separate standalone editer for live-coding building off the [Live Coding Editor](https://github.com/shader-park/shader-park-live-coding)
+
 Favoriting sculptures
+
 Notifications for favorites / comments
+
 Search
+
 Tags on sculptures to easily find them
