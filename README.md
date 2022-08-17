@@ -1,27 +1,20 @@
-# Next.js + Tailwind CSS Example
+<img width="1536" alt="Shader Park HeroF Crop" src="https://user-images.githubusercontent.com/6014011/185210897-bc5aa9fb-0413-4454-b0df-f093263aee82.png">
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Shader Park Next Website
 
-## Deploy your own
+This is an early build out of the new Shader Park website.
+The existing website is live [here](https://www.shaderpark.com/) and the origional website source code can be found [here](https://github.com/shader-park/shader-park-website).
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The origonal website started as a 3D enviornment and shader-park-core was origonally in the website. As the website and library has changed over time there were growing pains and it makes sense to re-build out the core funcitonality.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Intented Functionality:
+Serverside Rendering / SEO for sculptures so individual sculptures, or profiles can be shared with a unique image and description
+Comments. We need the ability to get feedback
+Detailed Profile
+  - Links to your bio, or other websites
+  - Show favorites
+Separate standalone editer for live-coding building off the [Live Coding Editor](https://github.com/shader-park/shader-park-live-coding)
+Favoriting sculptures
+Notifications for favorites / comments
+Search
+Tags on sculptures to easily find them
