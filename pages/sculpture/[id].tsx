@@ -21,7 +21,6 @@ const Sculpture = (props: any) => {
         let sculp = snapshot.val();
         if(sculp) {
             shaderSource = sculp.shaderSource;
-            console.log('sculp', sculp)
             if(!triggerOnce && shaderSource.length) {
                 triggerOnce = true;
                 const divElement = canvasRef.current;
